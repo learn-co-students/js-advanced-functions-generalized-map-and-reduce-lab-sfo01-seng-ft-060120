@@ -3,9 +3,9 @@
 const map = (sourceArray, callbackFunction) => {
     let newArray = [] 
     for (let i = 0; i < sourceArray.length; i++) {
-        let element = sourceArray[i]
+        let x = sourceArray[i]
 
-        newArray.push(callbackFunction(element))
+        newArray.push(callbackFunction(x))
     }
     return newArray
 }
